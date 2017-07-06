@@ -1,0 +1,155 @@
+html {
+	background-color: #f3f1eb;
+}
+
+body {
+	height: 100%;
+	font: 14px 'Segoe UI', 'Arial', sans-serif;
+}
+
+a, a:visited {
+	outline: none;
+	color: #1c4f64;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	padding: 30px;
+	position: relative;
+	background-image: url(img/jez-timms-761.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+header h2 {
+	font: normal 28px 'Rochester', cursive;
+	text-align: center;
+	padding: 5px;
+	background-color: #3a3a3b;
+	box-shadow: 0 1px 2px #888;
+	border: 1px solid #333;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 160px;
+	margin-left: -80px;
+	color: #fff;
+}
+
+header h1 {
+	text-align: center;
+	font: normal 56px 'Bree Serif', sans-serif;
+	color: #f3f1eb;
+	padding: 60px 0 40px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+h3 {
+	font: normal 28px 'Rochester', cursive;
+	text-align: center;
+	color: #414142;
+	padding: 20px;
+	margin: 0;
+}
+
+body > div.container > div:nth-child(1) {
+	margin-bottom: 0;
+}
+
+body > div.container > nav {
+	background-color: #EBE8E3 !important;
+	box-shadow: none;
+}
+
+nav ul a {
+	color: #414142 !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px)
+  .container {
+    width: 85%;
+}
+@media only screen and (min-width: 993px)
+  .container {
+    width: 70%;
+}
+
+.carousel-item {
+	width: 600px !important;
+}
+
+.carousel {
+	height: 300px !important;
+	perspective: 300px !important;
+}
+
+body > div.container > div:nth-child(3) > div {
+	padding-bottom: 80px;
+}
+
+body > div.container > div:nth-child(3) > div > h3 {
+	position: relative;
+	top: 50px;
+}
+
+.container > .row:first-child {
+	margin-top: 0;
+}
+
+.inspiration {
+	text-align: center;
+	height: 300px;
+}
+
+.wedding-tips {
+	padding-left: 6%;
+	width: 500px;
+	height: 300px;
+	text-align: justify;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tips-block,
+.inspiration-block {
+	width: 80%;
+	margin-right: 5%;
+}
+
+.inspiration-block {
+	padding-left: 10%;
+}
+
+.tips-block {
+	padding-left: 5%;
+}
+
+.tips-inspiration {
+	background-color: #FCFEFC;
+}
+
+.tips-inspiration h3 {
+	text-align: left;
+}
+
+.page-footer {
+	background-color: #f3f1eb !important;
+}
+
+.white-text,
+body > footer > .container > div.row > div.col.l6.s12 > p,
+body > footer > .container > div.row > div.col.l4.offset-l2.s12 > h5,
+body > footer > .container > div.row > div.col.l4.offset-l2.s12 > ul > li > a,
+body > footer > div.footer-copyright > div {
+	color: #414142 !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
