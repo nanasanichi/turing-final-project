@@ -5,6 +5,7 @@ html {
 body {
 	height: 100%;
 	font: 14px 'Segoe UI', 'Arial', sans-serif;
+	color: #414142;
 }
 
 a, a:visited {
@@ -139,6 +140,10 @@ body > div.container > div:nth-child(3) > div > h3 {
 
 .tips-inspiration h3 {
 	text-align: left;
+}
+
+body > div.container > div:nth-child(4) > div:nth-child(2) > div > h3 {
+	padding-left: 0;
 }
 
 .page-footer {
